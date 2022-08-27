@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator-App</title>
+    <link rel="stylesheet" href="./lib/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="bc-container">
+        <div class="bc-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 px-0">
+                        <div class="bc-screen">
+                            <div id="bc-screen-display"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 px-0">
+                        <div class="bc-keypad-container">
+                                    <div class="bc-keypad bc-nonOp-keys">
+                                        <button data-keyValue="1" class="btn btn-sm bc-key bc-num-key">1</button>
+                                        <button data-keyValue="2" class="btn btn-sm bc-key bc-num-key">2</button>
+                                        <button data-keyValue="3" class="btn btn-sm bc-key bc-num-key">3</button>
+                                        <button data-keyValue="4" class="btn btn-sm bc-key bc-num-key">4</button>
+                                        <button data-keyValue="5" class="btn btn-sm bc-key bc-num-key">5</button>
+                                        <button data-keyValue="6" class="btn btn-sm bc-key bc-num-key">6</button>
+                                        <button data-keyValue="7" class="btn btn-sm bc-key bc-num-key">7</button>
+                                        <button data-keyValue="8" class="btn btn-sm bc-key bc-num-key">8</button>
+                                        <button data-keyValue="9" class="btn btn-sm bc-key bc-num-key">9</button>
+                                        <button data-keyFn="clearScreen" id="bc-fn-key" class="btn btn-sm bc-key bc-fn-key">C</button>
+                                        <button data-keyValue="0" class="btn btn-sm bc-key bc-num-key">0</button>
+                                        <button data-keyFn="equalTo" class="btn btn-sm bc-key bc-fn-key">=</button>
+                                    </div>
+                                    <div class="bc-keypad bc-op-keys">
+                                        <button data-keyFn="add" class="btn btn-sm bc-key bc-op-key">+</button>
+                                        <button data-keyFn="subtract" class="btn btn-sm bc-key bc-op-key">-</button>
+                                        <button data-keyFn="multiply" class="btn btn-sm bc-key bc-op-key">*</button>
+                                        <button data-keyFn="divide" class="btn btn-sm bc-key bc-op-key">/</button>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="./js/calculator.js"></script>
+</body>
+</html>

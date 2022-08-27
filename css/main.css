@@ -1,0 +1,65 @@
+.bc-container {
+    background-color: #a8bf7e;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bc-wrapper {
+    background-color: #a0d0ea;
+    min-height: 15px;
+    border-radius: 3px;
+    display: flex;
+    padding: 6px;
+}
+
+.bc-screen {
+    background-color: #f1fbeb;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid #80a6ba;
+    margin-bottom: 6px;
+    padding: 4px;
+}
+
+.bc-keypad-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 144px;
+}
+
+.bc-nonOp-keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.bc-op-keys {
+    width: 25%;
+}
+
+.bc-op-keys .bc-key {
+    background-color: #efff93;
+}
+
+.bc-key {
+    margin-bottom:4px;
+    margin-right: 4px;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #80a6ba;
+    width: 32px;
+    background-color: #efefef;
+}
+
+#bc-fn-key {
+    background-color: #fd9ea8;
+}
+
+.px-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
